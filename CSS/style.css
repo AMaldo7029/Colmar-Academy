@@ -4,14 +4,15 @@ html{
 
 .nav{
   background-color: white;
-  margin: 0 24px;
   height: 64px;
-  display: flex;
+  display: block;
 }
 
-.nav img{
-    padding: 0 32px;
-    height 50%;
-    top: 50%;
-  }
+.blocko{
+  padding: 0 32px;
+}
+
+#ss{
+  display: inline-flex;
+  align-items: center;
 }
