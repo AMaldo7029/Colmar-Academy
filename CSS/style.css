@@ -5,12 +5,12 @@ html{
 .nav{
   background-color: white;
   margin:0 24px;
-  height: 64px;
+  padding: 0 64px;
   display: flex;
 }
 
 .nav img{
-    margin-right: 0;
+    margin-right: 0 32px;
     height 50%;
     top: 50%;
   }
