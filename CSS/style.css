@@ -1,8 +1,37 @@
+/*Font colors,sizes,family.*/
 html{
   background-color: ;
-  font-size: 16px;
+  font-size: 20px;
 }
 
+#xlarge{
+  color: #705757;
+  font-size: 3em;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+
+}
+
+#large{
+  font-size: 32px;
+  font-family: 'Merriweather', serif;
+}
+
+#medium{
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  color: #705757;
+  text-align: center;
+}
+
+#smaller{
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color: #492F2F;
+  text-align: left;
+}
+
+/*Navigation CSS*/
 .nav{
   background-color: white;
   height: 64px;
@@ -50,29 +79,13 @@ nav {
   width: 100%;
 }
 
-#xlarge{
-  color: #705757;
-  font-size: 3rem;
-  font-family: 'Merriweather', serif;
-}
-
-#large{
-  font-size: 32px;
-  font-family: 'Merriweather', serif;
-}
-
-#medium{
-  font-family: 'Merriweather', serif;
-  font-size: 24px;
-  color: #705757;
-}
-
+/*Banner content under the navigation*/
 .bannertop{
   background-color: #E6D7D7;
   display: flex;
 }
 
-.bannertop img{
+#main img{
   width: 60%;
   height: 90%;
   padding: 32px 24px;
@@ -99,4 +112,21 @@ nav {
     font-size: 20px;
     width: 70%;
     margin: 24px 0;
+}
+
+/*information section under banner*/
+.info h1{
+  width: 60%;
+  padding-bottom: 24px;
+}
+
+.info p{
+  width: 60%;
+  line-height: 1.4;
+  padding-bottom: 24px;
+}
+
+.info #smaller{
+  padding-left: 24px;
+  padding-bottom: 32px;
 }
