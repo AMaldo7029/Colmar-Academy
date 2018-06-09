@@ -136,7 +136,16 @@ nav {
 }
 
 
-.info .test{
+.info {
+display: flex;
+}
+
+
+.test{
   display: flex;
+
+}
+
+.info img{
 
 }
