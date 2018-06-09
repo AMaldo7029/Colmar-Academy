@@ -132,9 +132,10 @@ nav {
   padding-bottom: 32px;
 }
 
-.info {
-  display: flex;
-  width: 100%;
+#dontmove{
+  display: block;
 }
-
-.information{}
+.info .test{
+  display: flex;
+  
+}
