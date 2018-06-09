@@ -6,8 +6,30 @@ html{
   background-color: white;
   height: 64px;
   display: flex;
+  width: 100%;
 }
 
-.b{
-  padding: 0 32px;
+.top{
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.top h1{
+  margin-left: -5px;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: right;
+  padding-right: 24px;
+}
+ul li{
+  display: inline;
+  padding-right: 16px;
+}
+nav {
+  width: 100%;
 }
