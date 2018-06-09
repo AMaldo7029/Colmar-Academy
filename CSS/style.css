@@ -91,6 +91,7 @@ nav {
   padding: 32px 24px;
 }
 
+
 .testflx{
   text-align:center;
   margin: auto;
@@ -130,3 +131,10 @@ nav {
   padding-left: 24px;
   padding-bottom: 32px;
 }
+
+.info {
+  display: flex;
+  width: 100%;
+}
+
+.information{}
