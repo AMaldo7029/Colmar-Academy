@@ -68,11 +68,13 @@ html{
   width: 100%;
   text-align: right;
   padding-right: 24px;
+
 }
 
 ul li{
   display: inline;
   padding-left: 16px;
+  float: right;
 }
 
 nav {
@@ -83,6 +85,7 @@ nav {
 .bannertop{
   background-color: #E6D7D7;
   display: flex;
+
 }
 
 #main img{
@@ -132,10 +135,8 @@ nav {
   padding-bottom: 32px;
 }
 
-#dontmove{
-  display: block;
-}
+
 .info .test{
   display: flex;
-  
+
 }
