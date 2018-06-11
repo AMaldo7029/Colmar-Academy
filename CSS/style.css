@@ -30,7 +30,21 @@ html{
   font-size: 24px;
   color: #705757;
   text-align: left;
+}
 
+#smallmerri{
+  font-family: 'Merriweather', serif;
+  font-size: 21px;
+  color: #705757;
+  padding-bottom: 8px;
+
+}
+
+#xlargelato{
+  color: #705757;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 #slightsmaller{
@@ -181,7 +195,7 @@ display: flex;
   height: 25%%;
 }
 
-.x span, p, a{
+.y span, p, a{
   text-align: right;
 }
 
@@ -193,8 +207,11 @@ display: flex;
   margin: auto;
 }
 
-.x #large{
+.y #large{
   text-align: right;
+}
+
+.x #large{
   font-size:26px;
   font-weight: bold;
   margin-right: 0;
@@ -232,4 +249,147 @@ a #smaller{
 
 #specialcase{
   background-color: #E6D7D7;
+}
+
+/*start learning*/
+.learn{
+  padding: 32px 0;
+  background-color: #E6D7D7;
+}
+
+.row{
+  display:flex;
+  padding-left: 72px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+  background-color:#E6D7D7;
+ }
+
+.row div {
+ flex:1;
+ margin-right:32px;
+ background-color: white
+
+ }
+.row img {
+ width:100%;
+ }
+
+ .row h1{
+   font-weight: bold;
+   margin-top: 16px;
+   text-align: left;
+ }
+ .row h1, .row h2{
+   padding: 8px 16px;
+ }
+
+ .row p{
+   text-align: left;
+   line-height: 1.5;
+   padding-left: 16px;
+   margin-top: 8px;
+   margin-bottom: 24px;
+ }
+
+ .thesis{
+   padding:32px;
+ }
+
+video{
+  width: 60%;
+  height: 100%;
+}
+
+
+.thesis-main{
+  display: flex;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  max-height: 400px;
+  margin-bottom: 4%;
+}
+
+.nn .x{
+  border: none;
+}
+
+.pics{
+  margin-left: 24px;
+  display: flex;
+  background-color: #E6D7D7;
+
+}
+.pics img{
+  width: 35%;
+  height: 50%;
+  padding: 16px;
+}
+
+.picsnowandthen{
+  display: flex;
+  margin-left: 24px;
+}
+
+.picsnowandthen img{
+  padding: 16px;
+  width: 35%;
+  height: 50%;
+
+}
+
+.pics p, .picsnowandthen p{
+    line-height: 1.5;
+}
+
+.picsnowandthen p, .picsnowandthen span{
+  text-align: left;
+}
+
+.pics p, .pics span{
+  text-align: left;
+}
+
+#thesiswords{
+  margin: auto 0;
+}
+
+
+.reimagine{
+margin-left: 24px;
+width: 60%;
+}
+
+.reimagine h2{
+  margin-bottom: 8px;
+}
+.reimagine #smallmerri{
+  padding-top: 8px;
+  line-height: 1.5;
+  font-weight: lighter;
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+.footer{
+  border-top: solid 1px;
+  border-color: #957D7D;;
+  padding-top:16px;
+  padding-left: 24px;
+}
+
+.alignleft{
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #492F2F;
+}
+
+.alignright{
+  float: right;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #492F2F;
+  word-spacing: 10px;
+  padding-right: 15px;
 }
